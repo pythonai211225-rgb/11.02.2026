@@ -8,5 +8,5 @@ for i in range(10):
 
 print(grades)
 
-# a- find if there ANY grade above 90 in the list
+# a- find if there is ANY grade above 90 in the list
 # b- find if ALL grades are below equal 90
