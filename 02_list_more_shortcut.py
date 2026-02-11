@@ -99,7 +99,8 @@ grades.clear()
 # You must use:
 # count, index, append, insert, remove, pop, max, min, sum, len, copy, clear
 
-# put the word 'hello' into a list (hint: use list command)
-# now make it str (using join), then upper and put it back into the list
+# put the word 'hello'(str) into a list (hint: use list command)
+# make the list into str (using join), then upper and put it back into the list
 # change the last character to 0
+# remove the first character
 # make it a string and print
