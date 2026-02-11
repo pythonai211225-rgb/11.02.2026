@@ -148,4 +148,7 @@ while max(grades) > 89:
     while _max in grades:
         grades.remove(_max)
 
+# calculate how many failures were in the class (under 55)
+# a- find if there ANY grade above 90 in the list
+# b- find if ALL grades are above 15
 
