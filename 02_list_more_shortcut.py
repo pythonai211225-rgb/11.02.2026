@@ -50,24 +50,56 @@ for index, value in enumerate(grades):
 # 3 55
 # 4 90
 
-'''
+
 grades = [90, 75, 100, 55, 90, 60]
-Do the following:
+# Do the following:
 
-1 Print how many times 90 appears
-2 Print the index of the first 100
-3 Add grade 88 to the end
-4 Insert 50 at index 2
-5 Remove the first 55
-6 Remove the grade at index 3 using pop() and print what was removed
-7 Print the maximum grade
-8 Print the minimum grade
-9 Print the total sum of grades
-A Print how many grades there are
-B Make a backup copy of the list
-C Clear the original list
-D Print both lists to prove copy worked
+# 1 Print how many times 90 appears
+print(grades.count(90))
 
-You must use:
-count, index, append, insert, remove, pop, max, min, sum, len, copy, clear
-'''
+# 2 Print the index of the first 100
+print(grades.index(100))
+
+# 3 Add grade 88 to the end
+print(grades.append(88))
+grades = grades + [88]
+grades.extend([88])
+
+# 4 Insert 50 at index 2
+grades.insert(2, 50)
+
+# 5 Remove the first 55
+grades.remove(55)
+del grades[grades.index(55)]
+grades.pop(grades.index(55))
+
+# 6 Remove the grade at index 3 using pop() and print what was removed
+grades.pop(3)
+
+# 7 Print the maximum grade
+print(max(grades))
+
+# 8 Print the minimum grade
+print(min(grades))
+
+# 9 Print the total sum of grades
+print(sum(grades))
+
+# A Print how many grades there are
+print(len(grades))
+
+# B Make a backup copy of the list
+backup = grades.copy()
+
+# C Clear the original list
+grades.clear()
+
+# D Print both lists to prove copy worked
+
+# You must use:
+# count, index, append, insert, remove, pop, max, min, sum, len, copy, clear
+
+# put the word 'hello' into a list (hint: use list command)
+# now make it str (using join), then upper and put it back into the list
+# change the last character to 0
+# make it a string and print
